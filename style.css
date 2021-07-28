@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+nav li a:hover{
+  
+    transition: 0.1ms;
+    background-color: linear-gradient(180deg, red, yellow);
+    color: #fff;
+}
+
+.list-item{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+}
+.nav-brand{
+    margin-left: 60px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 50px;
+}
+.bimg{
+    background-image: url("/image/kelly-sikkema-47x_lN_VAFw-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+.photo{
+    margin-bottom: 0;
+}
+#carouselExampleInterval{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.q{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+.row{
+    margin-top: 30px;
+}
+.x {
+    padding: 50px;
+    background-color: ;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .x:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .abt-img{
+      float: left;
+      margin-left: 60px;
+      border-radius: 50%;
+      margin-top: 60px;
+
+  }
+  .about-us{
+      
+      margin-top: 40px;
+  }
+  .abt-p{
+      padding-bottom: 160px;
+      margin-left: 400px;
+      margin-right: 200px;
+      color:#fff;
+      font-family: 'Baloo Chettan 2', cursive;
+
+      
+  }
+  .abt-head{
+      text-align: center;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      font-family:  'Roboto', sans-serif;
+      color:#fff;
+  }
+  .ss{
+      margin-bottom: -20px;
+      margin-top: -20px;
+  }
+  .contact{
+      
+  }
+  .contact-heading{
+      text-align: center;
+      margin-left: 90px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .con-div{
+      margin-left: 60px;
+     
+  }
+  .aa{
+      margin-left: 30px;
+      text-align: center;
+  }
+  .contact h3{
+      text-align: center;
+      margin-top: 50px;
+  }
+  .contact h4{
+      text-align: center;
+  }
+  .foo-div{
+margin-left: 570px;
+padding-top: 30px;
+padding-bottom: 30px;
+  }
+  footer{
+      background-color:#334257 ;
+  }
+  .sm{
+      width: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 50px;
+  }
+  #icccon{
+      display: block;
+      
+      margin-left: 32%;
+  }
+  .c-text{
+      
+  }
